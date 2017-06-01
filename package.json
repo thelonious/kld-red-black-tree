@@ -1,0 +1,15 @@
+{
+  "name": "kld-red-black-tree",
+  "version": "0.0.1",
+  "description": "A JS-based Red-Black Tree implementation based on code from \"Algorithms, 4th Edition\", by Robert Sedgewick and Kevin Wayne",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "red-black",
+    "tree"
+  ],
+  "author": "Kevin Lindsey <kevin@kevlindev.com>",
+  "license": "BSD-3-Clause"
+}
