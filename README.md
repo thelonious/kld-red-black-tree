@@ -1,3 +1,4 @@
+Pretty much a direct port of the [RedBlackTree implemenation](http://algs4.cs.princeton.edu/33balanced/RedBlackBST.java.html) in "Algorithms, 4th Edition", by Sedgewick and Wayne. The biggests differences are that static methods become private functions and the use of `delete` was changed to `remove`.
 
 ## Example
 
@@ -29,22 +30,23 @@ console.log("keys = %s", tree.keys().join(","));
 
 ### properties
 
-- size
-- height
-- min
-- max
+- size : `Number`
+- height : `Number`
+- min : `<key>`
+- max : `<key>`
 
 ### methods
 
-- isEmpty()
-- get(key)
-- contains(key)
-- put(key, value)
-- removeMin()
-- removeMax()
-- remove(key)
-- floor(key)
-- ceiling(key)
-- select(count)
-- rank(key)
-- keys(low, high) - if low and high are not defined, they default to min and max, respectively
+- isEmpty() : `Boolean`
+- get(key) : `<value>`
+- contains(key) : `Boolean`
+- put(key, value) : `void`
+- removeMin() : `void`
+- removeMax() : `void`
+- remove(key) : `void`
+- floor(key) : `<key>`
+- ceiling(key) : `<key>`
+- select(count) : `<key>`
+- rank(key) : `Number`
+- keys(low, high) : [`<keys>`]
+	- if low and high are not defined, they default to min and max, respectively
