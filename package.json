@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "red-black",
-    "tree"
+    "red-black tree",
+    "balanced binary tree"
   ],
   "author": "Kevin Lindsey <kevin@kevlindev.com>",
   "license": "BSD-3-Clause"
