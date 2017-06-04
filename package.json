@@ -1,6 +1,6 @@
 {
   "name": "kld-red-black-tree",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JS-based Red-Black Tree implementation based on code from \"Algorithms, 4th Edition\", by Robert Sedgewick and Kevin Wayne",
   "main": "index.js",
   "scripts": {
